@@ -13,4 +13,7 @@ fuzzywuzzy==0.18.0
 joblib==1.4.2
 faiss-cpu
 sentence-transformers==3.2.1
-opencv-python-headless==4.5.5.64
+opencv-python-headless==4.10.0.84
+fastapi==0.95.1
+uvicorn==0.23.1
+Pillow==9.4.0
