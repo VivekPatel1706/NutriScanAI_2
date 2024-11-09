@@ -39,7 +39,9 @@ async def process_image(image: UploadFile = File(...), allergy: str = "None"):
         
         # Return the HTML content
         return HTMLResponse(content=html_output)
-
+    
+    except:
+        return HTMLResponse(content="<h1>Something Want Wrong!</h1>", status_code=200)
 # Root endpoint to check API status
 @app.get("/", response_class=HTMLResponse)
 def read_root():
