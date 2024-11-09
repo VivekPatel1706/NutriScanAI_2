@@ -2,7 +2,7 @@ from docx import Document
 from docx.shared import Inches, RGBColor
 from Database import retrieve_data, retrive_count
 from Graph import pie_graph, line_graph, stacked_bar_graph
-from Home import url, db, user_collection
+from streamlit_app import url, db, user_collection
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
